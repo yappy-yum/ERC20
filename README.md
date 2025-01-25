@@ -46,7 +46,7 @@ To verify the installation, run the following command:
 To get all the contracts installed in your compiler, run the following command:
 
 ```bash
-
+git clone https://github.com/yappy-yum/ERC20
 ```
 
 ## 🙏 Attribution
