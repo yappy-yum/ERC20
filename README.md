@@ -1,66 +1,54 @@
-## Foundry
+# ERC-20 Token
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+**YAPPY (YAP)**
 
-Foundry consists of:
+A simple, custom ERC-20 token contracts
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+<br>
 
-## Documentation
 
-https://book.getfoundry.sh/
+## 🔗 Contract Details
+- **Token Name:** YAPPY
+- **Symbol:** YAP
+- **Standard:** ERC-20
+- **Solidity Version:** ^0.8.0
+- **Initial Supply:** Specified during deployment
 
-## Usage
+<br>
 
-### Build
+## 🎯 Requirements
 
-```shell
-$ forge build
+- [Visual Studio Code](https://code.visualstudio.com/download): A code editor for Solidity and project files
+- [Git](https://git-scm.com/downloads): Best terminal for managing your project.
+- [Foundry](https://getfoundry.sh): A development environment for Solidity smart contracts.
+
+To verify the installation, run the following command:
+
+<br>
+
+> **git**
+> ``` bash
+> git --version
+> ```
+> An ouput similar to `git version X.X.X` indicates a successful installation
+
+
+> **foundry**
+> ```bash
+> forge --version
+> ```
+> An ouput similar to `forge 0.2.0 (...)` indicates a successful installation
+
+<br>
+
+## ⏩ Quickstart
+
+To get all the contracts installed in your compiler, run the following command:
+
+```bash
+
 ```
 
-### Test
+## 🙏 Attribution
 
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+This portfolio project was inspired and made possible by the guidance and resources provided by **Cyfrin Updraft**: [github](https://github.com/Cyfrin/foundry-full-course-cu)/[official website](https://www.cyfrin.io/updraft).  
